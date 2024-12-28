@@ -3,7 +3,10 @@
     const repositories = [
       'ristoxxx/newcv/main',
       'ristoxxx/budgify/master',
-      'ristoxxx/newcv/main'
+      'ristoxxx/newcv/main',
+      'ristoxxx/newcv/main',
+      'ristoxxx/newcv/main',
+      'ristoxxx/newcv/main',
     ];
 
     const repoContainer = document.getElementById('repositories');
@@ -40,16 +43,18 @@
             : description;
 
           // Create a card for the repository
-          const card = document.createElement('div');
-          card.className = 'repo-card';
+          const card = document.createElement('li');
+          //card.className = 'repo-card';
+          if ((repoContainer.children.length) % 3 === 0) {
+            card.className = 'last';
+          }
 
           card.innerHTML = `
-            <h3>${title}</h3>
+            <div class="imgholder"><img src="${imgUrl}" alt="${title}" width="284" height="144">
+            </div>
+            <h2>${title}</h2>
             <p>${truncatedDescription}</p>
-            <a href="${repoUrl}" target="_blank">
-              <img src="${imgUrl}" alt="${title}">
-            </a>
-            <p><a href="${repoUrl}" target="_blank">Continue Reading</a></p>
+            <p class="readmore"><a href="${repoUrl}" target="_blank">Continue Reading</a></p>
           `;
 
           repoContainer.appendChild(card);
