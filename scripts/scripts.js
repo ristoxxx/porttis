@@ -3,10 +3,10 @@
     const repositories = [
       'ristoxxx/newcv/main',
       'ristoxxx/budgify/master',
-      'ristoxxx/newcv/main',
-      'ristoxxx/newcv/main',
-      'ristoxxx/newcv/main',
-      'ristoxxx/newcv/main',
+      'ristoxxx/HomeDasboard/main',
+      'ristoxxx/ristoxxx.github.io/master',
+      'ristoxxx/ravintolaruletti/main',
+      'ristoxxx/barber/main',
     ];
 
     const repoContainer = document.getElementById('repositories');
@@ -35,7 +35,7 @@
             .substring(titleMatch[0].length)
             .trim()
             .split('\n') // Split content into lines
-            .filter(line => !line.trim().startsWith('!')) // Remove lines starting with "!"
+            .filter(line => !line.trim().startsWith('!' || '[')) // Remove lines starting with "!"
             .join(' ') // Replace newlines with spaces
             .trim(); // Trim leading/trailing spaces
           const truncatedDescription = description.length > 100 
