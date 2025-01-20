@@ -54,7 +54,7 @@
             </div>
             <h2>${title}</h2>
             <p>${truncatedDescription}</p>
-            <p class="readmore"><a href="${repoUrl}" target="_blank">Continue Reading</a></p>
+            <p class="readmore"><a href="${repoUrl}" target="_blank">View on GitHub</a></p>
           `;
 
           repoContainer.appendChild(card);
