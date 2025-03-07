@@ -1,6 +1,4 @@
-# My portfoli page
-
-## Technical Documentation
+# Technical Documentation
 
 ## File Structure
 
