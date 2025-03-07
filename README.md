@@ -1,10 +1,7 @@
 # Portfolio Website
 
 A responsive personal portfolio website showcasing my skills, recent projects, and certificates.
-<p align="center">
-<img src="./img.PNG" width="600"><br>
-<strong>StartPage sreenshot</strong>
-</p>
+![Portfolio page screenshot](img.PNG)
 
 ## Overview
 
