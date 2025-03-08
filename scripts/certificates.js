@@ -3,7 +3,7 @@
  * Created Date: Monday January 20th 2025 09:20:20
  * Author: ristoxxx@github.com
  * -----
- * Last Modified: Tuesday January 21st 2025 12:26:15
+ * Last Modified: Saturday March 8th 2025 02:02:15
  * Modified By: ristoxxx@github.com
  * -----
  * Copyright (c) 2025 ristoxxx@github.com
@@ -12,8 +12,8 @@
 
     // List of GitHub repositories
     const certs = [
-        'AWS cloud practitioner.png',
-        'Build web apps with ASP.NET.png',
+        'AWS cloud practitioner.PNG',
+        'Build web apps with ASP.NET.PNG',
         'Learn C sharp.PNG',
         'Cellular IoT Fundamentals.PNG',
         'nRf connect SDK fundamentals.PNG',
